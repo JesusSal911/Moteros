@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+main {
+  height: 300dvh;
+}
+.header {
+  background: linear-gradient(60deg, #ba3816, #a41705 40%);
+  width: 70rem;
+  height: 70rem;
+  border-radius: 100rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  margin-top: -59rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.header__imagen {
+  width: 18rem;
+  margin: 0 auto;
+  height: auto;
+  margin-bottom: 70px;
+}
+@keyframes slideDown {
+  from {
+    transform: ;
+  }
+}
