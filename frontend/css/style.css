@@ -21,6 +21,7 @@ main {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  animation: slideInDown 1500ms ease-out;
 }
 .header__imagen {
   width: 18rem;
@@ -28,8 +29,13 @@ main {
   height: auto;
   margin-bottom: 70px;
 }
-@keyframes slideDown {
+@keyframes slideInDown {
   from {
-    transform: ;
+    transform: translate3d(-50%, -100%, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+    opacity: 1;
   }
 }
