@@ -35,6 +35,23 @@ main {
   height: auto;
   margin-bottom: 70px;
 }
+.navegacion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 200px;
+  z-index: 1;
+  top: 16%;
+  left: 50%;
+}
+.navegacion ul {
+  display: flex;
+  gap: 1rem;
+  font-size: 20px;
+}
 @keyframes slideInDown {
   from {
     transform: translate3d(-50%, -100%, 0);
