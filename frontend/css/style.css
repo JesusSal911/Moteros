@@ -4,6 +4,12 @@
   text-decoration: none;
   list-style: none;
 }
+img {
+  width: 100vw;
+  height: 100dvh;
+  object-fit: cover;
+  position: fixed;
+}
 main {
   height: 300dvh;
 }
